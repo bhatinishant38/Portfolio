@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
+
 import { MdDownload } from "react-icons/md";
 
 const Home = () => {
@@ -58,7 +59,7 @@ const Home = () => {
           </a>
         </div>
         <div>
-          <button className="text-gray-300 text-sm md:text-lg flex items-center gap-2 border-2 p-2 rounded-3xl bg-linear-to-r from-blue-900 via-blue-400 to-blue-900">
+          <button className="text-gray-900 text-sm md:text-lg flex items-center gap-2 pl-4 pr-4 p-2 rounded-3xl bg-linear-to-r from-blue-500 via-blue-400 to-blue-300  ">
             <span>
               <MdDownload color="white" size={20} />{" "}
             </span>
@@ -67,11 +68,23 @@ const Home = () => {
         </div>
       </nav>
 
+     <hr class="border-slate-700" />
+
       <div className="flex text-white items-center justify-around mt-20">
         <div>
-          <div>Hi,i'm</div>
-          <div>Nishant Bhati</div>
-          <div> I build modern</div>
+          <div className="text-sky-500 text-3xl font-bold">Hi,i'm</div>
+          <div className="text-6xl font-bold">Nishant <span className="bg-linear-to-r from-sky-300 to-blue-700 bg-clip-text text-transparent ">Bhati</span></div>
+          <div className="text-4xl font-medium">Full Stack Developer</div>
+          <div className="text-gray-300">
+            {" "}
+            I build modern web applications with clean code, <br /> creating
+            ideas and a passion for problem solving
+          </div>
+          <div className="mt-10 flex gap-10 items-center">
+            <a href="" className=" pl-4 pr-4 p-2 rounded-3xl bg-linear-to-r from-blue-500 via-blue-400 to-blue-300" >{" "}<button className="h-3 w-50">View My Projects  </button></a>
+            <a href="" className="p-3 border rounded-4xl">{" "}<button className="h-3 w-50">Conatct me</button>
+            </a>
+          </div>
         </div>
 
         <div>
@@ -82,8 +95,6 @@ const Home = () => {
           />
         </div>
       </div>
-
-
     </div>
   );
 };
