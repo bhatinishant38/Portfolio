@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Outfit Variable Font */
+.font-outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Fira Sans Static Font */
+.font-fira-sans {
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
