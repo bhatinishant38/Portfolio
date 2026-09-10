@@ -2,6 +2,7 @@ import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Eduaction from "./Components/Education";
 import Home from "./Components/Home";
+import Navabr from "./Components/Navabr";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 
@@ -10,7 +11,7 @@ function App() {
     <>
     <div className="font-fira-sans ">
 
-    
+       <Navabr/>
       <Home />
       <About />
       <Skills />
