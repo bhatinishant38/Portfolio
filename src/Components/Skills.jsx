@@ -10,7 +10,7 @@ const Skills = () => {
   return (
     <div
       id="Skills"
-      className="relative overflow-hidden bg-gray-600 px-5 py-20 text-white sm:px-8 lg:px-16"
+      className="relative overflow-hidden bg-gray-900 px-5 py-20 text-white sm:px-8 lg:px-16"
     >
       {/* Background Glow */}
       <div className="absolute left-1/2 top-20 z-0 h-72 w-72 -translate-x-1/2 rounded-full bg-blue-600/10 blur-3xl"></div>
@@ -22,12 +22,12 @@ const Skills = () => {
         </p>
 
         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
-          My <span className="text-blue-500">Skills</span>
+          My <span className="bg-linear-to-r from-sky-100 via-blue-400 to-blue-500 bg-clip-text text-transparent">Skills</span>
         </h2>
 
         <p className="mx-auto mt-4 max-w-xl text-sm leading-6 text-slate-100 sm:text-base">
           Technologies and tools I use to build modern, responsive and
-          full-stack web applicatpx
+          full-stack web applicatpions
         </p>
       </div>
 

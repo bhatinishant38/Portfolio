@@ -5,27 +5,27 @@ const Projects = () => {
   return (
     <div
       id="Projects"
-      className="w-full bg-white px-5 py-16 sm:px-8 sm:py-20 lg:px-16"
+      className="w-full bg-gray-100 px-5 py-16 sm:px-8 sm:py-20 lg:px-16"
     >
       {/* Section Header */}
       <div className="mx-auto mb-10 flex max-w-6xl items-end justify-between gap-6 sm:mb-14">
         <div className="flex flex-col gap-3">
           <div className="flex items-center gap-3">
             <div className="w-8 sm:w-10">
-              <hr className="h-1 rounded-full border-0 bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500" />
+              <hr className="h-1 rounded-full border-0 bg-linear-to-r from-sky-200 via-blue-400 to-blue-500  " />
             </div>
 
-            <p className="text-2xl font-bold text-gray-800 sm:text-3xl lg:text-4xl">
+            <p className="text-2xl font-bold bg-linear-to-r from-blue-500 via-sky-400 to-blue-500 bg-clip-text text-transparent sm:text-3xl lg:text-4xl">
               Featured
             </p>
           </div>
 
           <div className="flex items-center gap-3">
             <div className="w-8 sm:w-10">
-              <hr className="h-1 rounded-full border-0 bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500" />
+              <hr className="h-1 rounded-full border-0 bg-linear-to-r from-sky-200 via-blue-400 to-blue-500" />
             </div>
 
-            <p className="text-xs text-gray-500 sm:text-sm lg:text-base">
+            <p className="text-xs bg-linear-to-r from-blue-600 via-sky-500 to-blue-500 bg-clip-text text-transparent sm:text-sm lg:text-base">
               Some of the projects I've built recently.
             </p>
           </div>
@@ -49,7 +49,7 @@ const Projects = () => {
           <div className="relative overflow-hidden">
             <img
               className="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-105 sm:h-52"
-              src="/banner.png"
+              src="/prescripto.png"
               alt="Prescripto Doctor Appointments"
             />
 
@@ -101,7 +101,7 @@ const Projects = () => {
           <div className="relative overflow-hidden">
             <img
               className="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-105 sm:h-52"
-              src="/banner.png"
+              src="/tomato.png"
               alt="Project"
             />
 
@@ -112,11 +112,11 @@ const Projects = () => {
             <div className="flex items-start justify-between gap-4">
               <div>
                 <h3 className="text-lg font-bold leading-snug text-gray-800 sm:text-xl">
-                  Social Media App
+                  Tomato -Food Delivary 
                 </h3>
 
                 <p className="mt-2 text-xs leading-5 text-gray-500 sm:text-sm">
-                  A social platform where users can create and share posts.
+                  A food order platform where users can order books items.
                 </p>
               </div>
 
@@ -130,15 +130,15 @@ const Projects = () => {
 
             <div className="mt-5 flex flex-wrap gap-2">
               <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-600">
-                React
+                Admin Panel
               </span>
 
               <span className="rounded-full bg-green-50 px-3 py-1 text-xs font-medium text-green-600">
-                Node.js
+                Authentication
               </span>
 
               <span className="rounded-full bg-purple-50 px-3 py-1 text-xs font-medium text-purple-600">
-                MongoDB
+                Login & Logout
               </span>
             </div>
           </div>
@@ -149,7 +149,7 @@ const Projects = () => {
           <div className="relative overflow-hidden">
             <img
               className="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-105 sm:h-52"
-              src="/banner.png"
+              src="/homestay.png"
               alt="Project"
             />
 
@@ -170,7 +170,7 @@ const Projects = () => {
               </div>
 
               <a
-                href="#"
+                href="https://home-stays.onrender.com/"
                 className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gray-100 text-blue-600 transition-all duration-300 group-hover:bg-blue-600 group-hover:text-white"
               >
                 <FaArrowRight className="text-sm" />
@@ -179,15 +179,15 @@ const Projects = () => {
 
             <div className="mt-5 flex flex-wrap gap-2">
               <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-600">
-                React
+                EJS
               </span>
 
               <span className="rounded-full bg-orange-50 px-3 py-1 text-xs font-medium text-orange-600">
-                Tailwind
+                Session
               </span>
 
               <span className="rounded-full bg-yellow-50 px-3 py-1 text-xs font-medium text-yellow-600">
-                JavaScript
+                Tailwind 
               </span>
             </div>
           </div>
