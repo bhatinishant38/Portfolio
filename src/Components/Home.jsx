@@ -14,7 +14,7 @@ const Home = () => {
 
       <hr className="border-slate-700" />
 
-      <div className="flex  bg-gray-900 text-white items-center md:justify-around justify-center  px-10 py-3 pt-20 pb-10 sm:pb-15">
+      <div className="flex  bg-gray-600 text-white items-center md:justify-around justify-center  px-10 py-3 pt-20 pb-10 sm:pb-15">
         <div>
           <div className="text-sky-500 text-sm md:text-2xl sm:text-xl lg:text-3xl font-bold">Hi,i'm</div>
           <div className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold">

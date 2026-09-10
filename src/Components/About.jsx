@@ -11,7 +11,7 @@ const About = () => {
       id="About"
     >
       <div className="px-4 sm:px-8 lg:px-10 bg-gray-800 text-white rounded-2xl pb-6 sm:pb-8 lg:pb-10 w-full lg:w-1/2">
-        <div className="flex items-center gap-3 pt-5">
+        <div className="flex items-center gap-3 pt-5 pb-5">
           <div className="w-6 sm:w-10">
             <hr className="h-1 border-0 my-4 sm:my-8 bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full" />
           </div>
@@ -62,9 +62,14 @@ const About = () => {
       </div>
 
       <div className="bg-gray-800 text-white rounded-2xl pb-5 sm:pb-6 p-4 sm:p-5 lg:p-6 w-full lg:w-1/2">
-        <div className="p-3 sm:p-4 lg:p-5 text-lg sm:text-xl font-bold text-blue-500">
-          Quick Facts
+
+      <div className="flex items-center gap-3 pt-5 pb-5">
+          <div className="w-6 sm:w-10">
+            <hr className="h-1 border-0 my-4 sm:my-8 bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full" />
+          </div>
+          <div className="text-lg sm:text-xl font-bold text-blue-500">My Skills</div>
         </div>
+        
 
         <div className="flex flex-col gap-3 sm:gap-4 px-3 sm:px-5">
           <div className="flex gap-3 sm:gap-4">

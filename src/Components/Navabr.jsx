@@ -7,7 +7,7 @@ const Navabr = () => {
  const [active, setActive] = useState("Home");
   return (
     <div>
-        <nav className=" bg-gray-900 pt-5 pb-4 flex items-center md:justify-around justify-between  pr-10 pl-10 md:pr-0 md:pl-0">
+        <nav className=" bg-gray-800 pt-5 pb-4 flex items-center md:justify-around justify-between  pr-10 pl-10 md:pr-0 md:pl-0">
                 <a href="#Header">
                   <img className="w-15 h-15" src="/logo-NB.svg" alt="" />
                 </a>
