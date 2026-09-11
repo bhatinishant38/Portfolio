@@ -24,7 +24,7 @@ const About = () => {
             who loves building things
           </div>
           <div className="text-wrap text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed">
-            I'm a final year B.Tech student with strong intersect in web
+            I'm a final year B.Tech student with strong interest in web
             development . I enjoy working with a full stack and love creating
             scalable , user-friendly applications. Always open to learnings new
             technologies and collaborating on exciting projects.{" "}
