@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div
       id="Projects"
-      className="w-full bg-gray-100 px-5 py-16 sm:px-8 sm:py-20 lg:px-16"
+      className="w-full bg-gray-200 px-5 py-16 sm:px-8 sm:py-20 lg:px-16"
     >
       {/* Section Header */}
       <div className="mx-auto mb-10 flex max-w-6xl items-end justify-between gap-6 sm:mb-14">
@@ -33,7 +33,9 @@ const Projects = () => {
 
         {/* View All */}
         <a
-          href="#"
+          href="https://github.com/bhatinishant38?tab=repositories&q=&type=&language=&sort=stargazers"
+          target="_blank" 
+          rel="noopener noreferrer"
           className="group hidden shrink-0 items-center gap-2 text-sm font-semibold text-blue-600 transition-colors hover:text-blue-800 sm:flex"
         >
           View All Projects

@@ -53,7 +53,7 @@ const Skills = () => {
         {/* JavaScript */}
         <div className="group rounded-xl sm:rounded-2xl border border-slate-800 bg-slate-900/70 p-px shadow-lg transition-all duration-300 hover:-translate-y-2 hover:border-blue-500/50 hover:shadow-blue-500/10">
           <div className="flex h-full flex-col items-center rounded-xl sm:rounded-2xl bg-slate-900 px-2 py-4 sm:px-5 sm:py-7 lg:px-6 lg:py-8 text-center backdrop-blur-xl">
-            <div className="mb-2 sm:mb-4 lg:mb-5 flex h-9 w-9 sm:h-14 sm:w-14 lg:h-16 lg:w-16 items-center justify-center rounded-lg sm:rounded-2xl bg-cyan-400/10 text-cyan-400 transition-transform duration-300 group-hover:scale-110">
+            <div className="mb-2 sm:mb-4 lg:mb-5 flex h-9 w-9 sm:h-14 sm:w-14 lg:h-16 lg:w-16 items-center justify-center rounded-lg sm:rounded-2xl bg-yellow-500/10 text-yellow-500 transition-transform duration-300 group-hover:scale-110">
               <IoLogoJavascript className="text-2xl sm:text-3xl lg:text-4xl" />
             </div>
 
@@ -70,7 +70,7 @@ const Skills = () => {
         {/* HTML & CSS */}
         <div className="group rounded-xl sm:rounded-2xl border border-slate-800 bg-slate-900/70 p-px shadow-lg transition-all duration-300 hover:-translate-y-2 hover:border-blue-500/50 hover:shadow-blue-500/10">
           <div className="flex h-full flex-col items-center rounded-xl sm:rounded-2xl bg-slate-900 px-2 py-4 sm:px-5 sm:py-7 lg:px-6 lg:py-8 text-center backdrop-blur-xl">
-            <div className="mb-2 sm:mb-4 lg:mb-5 flex h-9 w-9 sm:h-14 sm:w-14 lg:h-16 lg:w-16 items-center justify-center rounded-lg sm:rounded-2xl bg-cyan-400/10 text-cyan-400 transition-transform duration-300 group-hover:scale-110">
+            <div className="mb-2 sm:mb-4 lg:mb-5 flex h-9 w-9 sm:h-14 sm:w-14 lg:h-16 lg:w-16 items-center justify-center rounded-lg sm:rounded-2xl bg-orange-500/10 text-orange-500 transition-transform duration-300 group-hover:scale-110">
               <FaHtml5 className="text-2xl sm:text-3xl lg:text-4xl" />
             </div>
 
@@ -87,7 +87,7 @@ const Skills = () => {
         {/* Node.js */}
         <div className="group rounded-xl sm:rounded-2xl border border-slate-800 bg-slate-900/70 p-px shadow-lg transition-all duration-300 hover:-translate-y-2 hover:border-blue-500/50 hover:shadow-blue-500/10">
           <div className="flex h-full flex-col items-center rounded-xl sm:rounded-2xl bg-slate-900 px-2 py-4 sm:px-5 sm:py-7 lg:px-6 lg:py-8 text-center backdrop-blur-xl">
-            <div className="mb-2 sm:mb-4 lg:mb-5 flex h-9 w-9 sm:h-14 sm:w-14 lg:h-16 lg:w-16 items-center justify-center rounded-lg sm:rounded-2xl bg-cyan-400/10 text-cyan-400 transition-transform duration-300 group-hover:scale-110">
+            <div className="mb-2 sm:mb-4 lg:mb-5 flex h-9 w-9 sm:h-14 sm:w-14 lg:h-16 lg:w-16 items-center justify-center rounded-lg sm:rounded-2xl bg-green-500/10 text-green-500 transition-transform duration-300 group-hover:scale-110">
               <FaNodeJs className="text-2xl sm:text-3xl lg:text-4xl" />
             </div>
 
@@ -104,7 +104,7 @@ const Skills = () => {
         {/* Express */}
         <div className="group rounded-xl sm:rounded-2xl border border-slate-800 bg-slate-900/70 p-px shadow-lg transition-all duration-300 hover:-translate-y-2 hover:border-blue-500/50 hover:shadow-blue-500/10">
           <div className="flex h-full flex-col items-center rounded-xl sm:rounded-2xl bg-slate-900 px-2 py-4 sm:px-5 sm:py-7 lg:px-6 lg:py-8 text-center backdrop-blur-xl">
-            <div className="mb-2 sm:mb-4 lg:mb-5 flex h-9 w-9 sm:h-14 sm:w-14 lg:h-16 lg:w-16 items-center justify-center rounded-lg sm:rounded-2xl bg-cyan-400/10 text-cyan-400 transition-transform duration-300 group-hover:scale-110">
+            <div className="mb-2 sm:mb-4 lg:mb-5 flex h-9 w-9 sm:h-14 sm:w-14 lg:h-16 lg:w-16 items-center justify-center rounded-lg sm:rounded-2xl bg-gray-400/10 text-gray-200 transition-transform duration-300 group-hover:scale-110">
               <SiExpress className="text-2xl sm:text-3xl lg:text-4xl" />
             </div>
 
@@ -121,7 +121,7 @@ const Skills = () => {
         {/* MongoDB */}
         <div className="group rounded-xl sm:rounded-2xl border border-slate-800 bg-slate-900/70 p-px shadow-lg transition-all duration-300 hover:-translate-y-2 hover:border-blue-500/50 hover:shadow-blue-500/10">
           <div className="flex h-full flex-col items-center rounded-xl sm:rounded-2xl bg-slate-900 px-2 py-4 sm:px-5 sm:py-7 lg:px-6 lg:py-8 text-center backdrop-blur-xl">
-            <div className="mb-2 sm:mb-4 lg:mb-5 flex h-9 w-9 sm:h-14 sm:w-14 lg:h-16 lg:w-16 items-center justify-center rounded-lg sm:rounded-2xl bg-cyan-400/10 text-cyan-400 transition-transform duration-300 group-hover:scale-110">
+            <div className="mb-2 sm:mb-4 lg:mb-5 flex h-9 w-9 sm:h-14 sm:w-14 lg:h-16 lg:w-16 items-center justify-center rounded-lg sm:rounded-2xl bg-green-500/10 text-green-500 transition-transform duration-300 group-hover:scale-110">
               <SiMongodb className="text-2xl sm:text-3xl lg:text-4xl" />
             </div>
 

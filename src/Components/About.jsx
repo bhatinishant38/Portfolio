@@ -67,7 +67,7 @@ const About = () => {
           <div className="w-6 sm:w-10">
             <hr className="h-1 border-0 my-4 sm:my-8 bg-linear-to-r from-sky-100 via-blue-400 to-blue-500 rounded-full" />
           </div>
-          <div className="text-lg sm:text-xl font-bold bg-linear-to-r from-sky-100 via-blue-400 to-blue-500 bg-clip-text text-transparent">My Skills</div>
+          <div className="text-lg sm:text-xl font-bold bg-linear-to-r from-sky-100 via-blue-400 to-blue-500 bg-clip-text text-transparent">Quick Facts</div>
         </div>
         
 
