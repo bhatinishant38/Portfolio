@@ -127,7 +127,7 @@ const Hero = () => {
         <img
           className="h-full w-full rounded-full object-cover p-3"
           src="/nishant.png"
-          alt="Developer illustration"
+          alt=""
         />
 
       </div>
