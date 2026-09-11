@@ -12,20 +12,20 @@ const Projects = () => {
         <div className="flex flex-col gap-3">
           <div className="flex items-center gap-3">
             <div className="w-8 sm:w-10">
-              <hr className="h-1 rounded-full border-0 bg-linear-to-r from-sky-200 via-blue-400 to-blue-500  " />
+              <hr className="h-1 rounded-full border-0 bg-linear-to-r from-sky-700 via-blue-400 to-blue-500  " />
             </div>
 
-            <p className="text-2xl font-bold bg-linear-to-r from-blue-500 via-sky-400 to-blue-500 bg-clip-text text-transparent sm:text-3xl lg:text-4xl">
+            <p className="text-2xl font-bold bg-linear-to-r from-blue-800 via-blue-500 to-blue-800 bg-clip-text text-transparent sm:text-3xl lg:text-4xl">
               Featured
             </p>
           </div>
 
           <div className="flex items-center gap-3">
             <div className="w-8 sm:w-10">
-              <hr className="h-1 rounded-full border-0 bg-linear-to-r from-sky-200 via-blue-400 to-blue-500" />
+              <hr className="h-1 rounded-full border-0 bg-linear-to-r from-sky-400 via-blue-400 to-blue-500" />
             </div>
 
-            <p className="text-xs bg-linear-to-r from-blue-600 via-sky-500 to-blue-500 bg-clip-text text-transparent sm:text-sm lg:text-base">
+            <p className="text-xs bg-linear-to-r from-blue-700 via-blue-500 to-blue-700 bg-clip-text text-transparent sm:text-sm lg:text-base">
               Some of the projects I've built recently.
             </p>
           </div>
@@ -74,7 +74,9 @@ const Projects = () => {
 
               {/* Arrow */}
               <a
-                href="#"
+                href="https://prescripto-frontend-jqu6.onrender.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gray-100 text-blue-600 transition-all duration-300 group-hover:bg-blue-600 group-hover:text-white"
               >
                 <FaArrowRight className="text-sm transition-transform duration-300 group-hover:translate-x-0.5" />
@@ -123,7 +125,9 @@ const Projects = () => {
               </div>
 
               <a
-                href="#"
+                href="https://tomato-frontend-6ycb.onrender.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gray-100 text-blue-600 transition-all duration-300 group-hover:bg-blue-600 group-hover:text-white"
               >
                 <FaArrowRight className="text-sm" />
@@ -162,17 +166,19 @@ const Projects = () => {
             <div className="flex items-start justify-between gap-4">
               <div>
                 <h3 className="text-lg font-bold leading-snug text-gray-800 sm:text-xl">
-                  Mantra Function Clone
+                  Home Stay
                 </h3>
 
                 <p className="mt-2 text-xs leading-5 text-gray-500 sm:text-sm">
-                  A responsive web application built with modern frontend
+                  A responsive web application built with modern complete backend
                   technologies.
                 </p>
               </div>
 
               <a
                 href="https://home-stays.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gray-100 text-blue-600 transition-all duration-300 group-hover:bg-blue-600 group-hover:text-white"
               >
                 <FaArrowRight className="text-sm" />

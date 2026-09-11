@@ -15,7 +15,7 @@ const Eduaction = () => {
         <hr className="h-1 rounded-full border-0 bg-linear-to-r from-sky-200 via-blue-400 to-blue-500" />
       </div>
 
-      <h2 className="text-2xl font-bold bg-linear-to-r from-blue-500 via-sky-400 to-blue-500 bg-clip-text text-transparent sm:text-3xl lg:text-4xl">
+      <h2 className="text-2xl font-bold bg-linear-to-r from-sky-200 via-sky-400 to-blue-400 bg-clip-text text-transparent sm:text-3xl lg:text-4xl">
         Experience & Education
       </h2>
     </div>

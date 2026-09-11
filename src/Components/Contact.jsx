@@ -53,9 +53,12 @@ const Contact = () => {
                   Email
                 </p>
 
-                <p className="mt-1 truncate text-sm font-medium text-gray-900 sm:text-base">
-                  bhatinishant650@gmail.com
-                </p>
+                <a
+                  href="mailto:bhatinishant650@gmail.com"
+                  className="mt-1 truncate bg-linear-to-r from-sky-300 via-blue-400 to-blue-700 bg-clip-text text-sm font-medium text-transparent sm:text-base"
+                >
+                  bhatinishant650@gmail.com 
+                </a>
               </div>
             </div>
 
@@ -70,7 +73,10 @@ const Contact = () => {
                   Whatsapp
                 </p>
 
-                <a href="https://github.com/bhatinishant38" target="_blank" className="mt-1 text-blue-500 truncate text-sm font-medium  sm:text-base">
+                <a
+                  href="tel:9311362414"
+                  className="mt-1 truncate bg-linear-to-r from-sky-300 via-blue-400 to-blue-700 bg-clip-text text-sm font-medium text-transparent sm:text-base"
+                >
                   9311362414
                 </a>
               </div>
@@ -87,7 +93,7 @@ const Contact = () => {
                   Github
                 </p>
 
-                <a href="https://github.com/bhatinishant38" target="_blank" className="mt-1 text-blue-500 truncate text-sm font-medium  sm:text-base">
+                <a href="https://github.com/bhatinishant38" target="_blank" className="mt-1 bg-linear-to-r from-sky-300 via-blue-400 to-blue-500 bg-clip-text text-transparent truncate text-sm font-medium  sm:text-base">
                   Click Me
                 </a>
               </div>

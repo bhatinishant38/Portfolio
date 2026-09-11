@@ -7,11 +7,11 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { FaArrowRight } from "react-icons/fa";
 
-const Home = () => {
+const Hero = () => {
   const [active, setActive] = useState("Home");
   return (
    
-<div id="Home" className="relative min-h-screen overflow-hidden bg-slate-950 text-white">
+<div id="Home" className="relative min-h-screen overflow-hidden bg-gray-900 text-white">
 
   {/* Background Glow */}
   <div className="absolute -left-20 top-20 h-72 w-72 rounded-full bg-sky-500/10 blur-3xl"></div>
@@ -126,7 +126,7 @@ const Home = () => {
 
         <img
           className="h-full w-full rounded-full object-cover p-3"
-          src="https://cdn-imagine.vyro.ai/imagine-frontend/assets/images/ai-image-generator-hero-image.png"
+          src="/nishant.png"
           alt="Developer illustration"
         />
 
@@ -142,4 +142,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Hero;

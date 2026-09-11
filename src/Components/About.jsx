@@ -10,7 +10,7 @@ const About = () => {
       className="min-h-full p-4 sm:p-8 md:p-10 lg:p-12 flex flex-col lg:flex-row gap-4 sm:gap-6 md:gap-8 lg:gap-10 items-stretch lg:items-center justify-around bg-gray-200"
       id="About"
     >
-      <div className="px-4 sm:px-8 lg:px-10 bg-gray-900 text-white rounded-2xl pb-6 sm:pb-8 lg:pb-10 w-full lg:w-1/2">
+      <div className="px-4 sm:px-8 lg:px-10 bg-gray-800 text-white rounded-2xl pb-6 sm:pb-8 lg:pb-10 w-full lg:w-1/2">
         <div className="flex items-center gap-3 pt-5 pb-5">
           <div className="w-6 sm:w-10">
             <hr className="h-1 border-0 my-4 sm:my-8 bg-linear-to-r from-sky-100 via-blue-400 to-blue-500 rounded-full" />
@@ -61,7 +61,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="bg-gray-900 text-white rounded-2xl pb-5 sm:pb-6 p-4 sm:p-5 lg:p-6 w-full lg:w-1/2">
+      <div className="bg-gray-800 text-white rounded-2xl pb-5 sm:pb-6 p-4 sm:p-5 lg:p-6 w-full lg:w-1/2">
 
       <div className="flex items-center gap-3 pt-5 pb-5">
           <div className="w-6 sm:w-10">
