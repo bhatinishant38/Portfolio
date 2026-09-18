@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 
 import { FaReact } from "react-icons/fa";
@@ -8,7 +8,7 @@ import { SiMongodb } from "react-icons/si";
 import { FaArrowRight } from "react-icons/fa";
 
 const Hero = () => {
-  const [active, setActive] = useState("Home");
+ 
   return (
    
 <div id="Home" className="relative min-h-screen overflow-hidden bg-gray-900 text-white">
