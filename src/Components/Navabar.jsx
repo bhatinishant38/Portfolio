@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { MdClose, MdDownload, MdMenu } from "react-icons/md";
 
-const Navabr = () => {
+const Navabar = () => {
   const [active, setActive] = useState("Home");
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -106,4 +106,4 @@ const Navabr = () => {
   );
 };
 
-export default Navabr;
+export default Navabar;

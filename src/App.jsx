@@ -3,7 +3,7 @@ import Contact from "./Components/Contact";
 import Eduaction from "./Components/Education";
 import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
-import Navabr from "./Components/Navabr";
+import Navabar from "./Components/Navabar";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 
@@ -12,7 +12,7 @@ function App() {
     <>
     <div className="font-fira-sans ">
 
-       <Navabr/>
+       <Navabar/>
       <Hero />
       <About />
       <Skills />
