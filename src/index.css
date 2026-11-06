@@ -15,3 +15,35 @@
 html {
   scroll-behavior: smooth;
 }
+
+.theme-dark,
+.theme-dark * {
+  color: #fff !important;
+  background-color: #000 !important;
+  background-image: none !important;
+  border-color: #fff !important;
+  box-shadow: none !important;
+  -webkit-text-fill-color: #fff !important;
+}
+
+.theme-light,
+.theme-light * {
+  color: #000 !important;
+  background-color: #fff !important;
+  background-image: none !important;
+  border-color: #000 !important;
+  box-shadow: none !important;
+  -webkit-text-fill-color: #000 !important;
+}
+
+.theme-dark img:not(.project-screenshot) {
+  filter: grayscale(1);
+}
+
+.theme-light .project-screenshot {
+  filter: none !important;
+}
+
+.theme-light .project-image-overlay {
+  background-color: transparent !important;
+}

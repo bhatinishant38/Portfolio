@@ -10,7 +10,7 @@ const Skills = () => {
   return (
     <div
       id="Skills"
-      className="relative overflow-hidden bg-gray-900 px-5 py-20 text-white sm:px-8 lg:px-16"
+      className="theme-dark relative overflow-hidden bg-gray-900 px-5 py-20 text-white sm:px-8 lg:px-16"
     >
       {/* Background Glow */}
       <div className="absolute left-1/2 top-20 z-0 h-72 w-72 -translate-x-1/2 rounded-full bg-blue-600/10 blur-3xl"></div>

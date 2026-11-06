@@ -4,7 +4,7 @@ import { FaArrowUp } from "react-icons/fa";
 const Footer = () => {
   return (
   
-<footer className="w-full bg-gray-800 px-5 py-6 sm:px-8 lg:px-12">
+<footer className="theme-dark w-full bg-gray-800 px-5 py-6 sm:px-8 lg:px-12">
   <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-5 border-t border-gray-700 pt-6 sm:flex-row">
 
     {/* Logo + Copyright */}

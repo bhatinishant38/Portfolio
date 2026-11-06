@@ -6,7 +6,7 @@ import { FaHouseLaptop } from "react-icons/fa6";
 const Eduaction = () => {
   return (
 
-<div id="Education" className="px-5 py-12 sm:px-8 lg:px-16  bg-gray-800">
+<div id="Education" className="theme-dark px-5 py-12 sm:px-8 lg:px-16 bg-gray-800">
 
   {/* Section Heading */}
   <div className="mb-12">

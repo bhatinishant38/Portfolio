@@ -10,16 +10,17 @@ import Skills from "./Components/Skills";
 function App() {
   return (
     <>
-    <div className="font-fira-sans ">
-
-       <Navabar/>
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Eduaction/>
-      <Contact/>
-      <Footer/>
+      <div className="font-fira-sans">
+        <div className="theme-dark">
+          <Navabar />
+          <Hero />
+        </div>
+        <About />
+        <Skills />
+        <Projects />
+        <Eduaction />
+        <Contact />
+        <Footer />
       </div>
     </>
   );

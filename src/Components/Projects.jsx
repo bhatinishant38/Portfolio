@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div
       id="Projects"
-      className="w-full bg-gray-200 px-5 py-16 sm:px-8 sm:py-20 lg:px-16"
+      className="theme-light w-full bg-gray-200 px-5 py-16 sm:px-8 sm:py-20 lg:px-16"
     >
       {/* Section Header */}
       <div className="mx-auto mb-10 flex max-w-6xl items-end justify-between gap-6 sm:mb-14">
@@ -50,13 +50,13 @@ const Projects = () => {
           {/* Image */}
           <div className="relative overflow-hidden">
             <img
-              className="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-105 sm:h-52"
+              className="project-screenshot h-48 w-full object-cover transition-transform duration-500 group-hover:scale-105 sm:h-52"
               src="/prescripto.png"
               alt="Prescripto Doctor Appointments"
             />
 
             {/* Overlay */}
-            <div className="absolute inset-0 bg-black/0 transition-all duration-300 group-hover:bg-black/10"></div>
+            <div className="project-image-overlay absolute inset-0 bg-black/0 transition-all duration-300 group-hover:bg-black/10"></div>
           </div>
 
           {/* Content */}
@@ -104,12 +104,12 @@ const Projects = () => {
         <div className="group overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
           <div className="relative overflow-hidden">
             <img
-              className="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-105 sm:h-52"
+              className="project-screenshot h-48 w-full object-cover transition-transform duration-500 group-hover:scale-105 sm:h-52"
               src="/tomato.png"
               alt="Project"
             />
 
-            <div className="absolute inset-0 bg-black/0 transition-all duration-300 group-hover:bg-black/10"></div>
+            <div className="project-image-overlay absolute inset-0 bg-black/0 transition-all duration-300 group-hover:bg-black/10"></div>
           </div>
 
           <div className="p-5 sm:p-6">
@@ -154,12 +154,12 @@ const Projects = () => {
         <div className="group overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
           <div className="relative overflow-hidden">
             <img
-              className="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-105 sm:h-52"
+              className="project-screenshot h-48 w-full object-cover transition-transform duration-500 group-hover:scale-105 sm:h-52"
               src="/homestay.png"
               alt="Project"
             />
 
-            <div className="absolute inset-0 bg-black/0 transition-all duration-300 group-hover:bg-black/10"></div>
+            <div className="project-image-overlay absolute inset-0 bg-black/0 transition-all duration-300 group-hover:bg-black/10"></div>
           </div>
 
           <div className="p-5 sm:p-6">
