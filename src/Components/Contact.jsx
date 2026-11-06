@@ -1,7 +1,6 @@
-import React from "react";
 import { IoIosMail } from "react-icons/io";
 import { FaArrowRightLong } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
@@ -41,64 +40,66 @@ const Contact = () => {
 
         {/* Right - Contact Information */}
         <div className="flex w-full flex-col justify-center p-6 sm:p-8 md:w-3/5 lg:p-12">
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4">
             {/* Email */}
-            <div className="group flex items-center gap-4 rounded-2xl border border-gray-100 bg-gray-50 p-4 transition duration-300 hover:-translate-y-1 hover:shadow-md">
-              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-gray-200 transition duration-300 group-hover:bg-blue-100">
+            <a
+              href="mailto:bhatinishant650@gmail.com"
+              className="group flex min-w-0 items-center gap-3 rounded-xl border border-gray-200 bg-gray-50 p-3 transition duration-300 hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black sm:gap-4 sm:p-4"
+            >
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-gray-200 sm:h-12 sm:w-12">
                 <IoIosMail className="text-xl text-gray-800 sm:text-2xl" />
               </span>
-
-              <div className="min-w-0">
-                <p className="text-xs font-medium uppercase tracking-wide text-gray-500">
+              <span className="min-w-0 flex-1">
+                <span className="block text-xs font-medium uppercase tracking-wide text-gray-500">
                   Email
-                </p>
-
-                <a
-                  href="mailto:bhatinishant650@gmail.com"
-                  className="mt-1 truncate bg-linear-to-r from-sky-300 via-blue-400 to-blue-700 bg-clip-text text-sm font-medium text-transparent sm:text-base"
-                >
-                  bhatinishant650@gmail.com 
-                </a>
-              </div>
-            </div>
-
-             {/* Phone No */}
-            <div className="group flex items-center gap-4 rounded-2xl border border-gray-100 bg-gray-50 p-4 transition duration-300 hover:-translate-y-1 hover:shadow-md">
-              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-gray-200 transition duration-300 group-hover:bg-blue-100">
-                <span className="text-xl font-bold text-gray-800"><FaWhatsapp /></span>
+                </span>
+                <span className="mt-1 block break-all text-sm font-medium text-gray-900 sm:text-base">
+                  bhatinishant650@gmail.com
+                </span>
               </span>
+            </a>
 
-              <div className="min-w-0">
-                <p className="text-xs font-medium uppercase tracking-wide text-gray-500">
-                  Whatsapp
-                </p>
-
-                <a
-                  href="tel:9311362414"
-                  className="mt-1 truncate bg-linear-to-r from-sky-300 via-blue-400 to-blue-700 bg-clip-text text-sm font-medium text-transparent sm:text-base"
-                >
-                  9311362414
-                </a>
-              </div>
-            </div>
+            {/* Phone */}
+            <a
+              href="tel:9311362414"
+              className="group flex min-w-0 items-center gap-3 rounded-xl border border-gray-200 bg-gray-50 p-3 transition duration-300 hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black sm:gap-4 sm:p-4"
+            >
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-gray-200 sm:h-12 sm:w-12">
+                <FaWhatsapp className="text-lg text-gray-800 sm:text-xl" />
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block text-xs font-medium uppercase tracking-wide text-gray-500">
+                  Phone / WhatsApp
+                </span>
+                <span className="mt-1 block text-sm font-medium text-gray-900 sm:text-base">
+                  +91 93113 62414
+                </span>
+              </span>
+            </a>
 
             {/* LinkedIn */}
-            <div className="group flex items-center gap-4 rounded-2xl border border-gray-100 bg-gray-50 p-4 transition duration-300 hover:-translate-y-1 hover:shadow-md">
-              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-gray-200 transition duration-300 group-hover:bg-blue-100">
-                <span className="text-xl font-bold text-gray-800"><FaGithub /></span>
+            <a
+              href="https://www.linkedin.com/in/nishant-bhati-162b39369/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex min-w-0 items-center gap-3 rounded-xl border border-gray-200 bg-gray-50 p-3 transition duration-300 hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black sm:col-span-2 sm:gap-4 sm:p-4"
+            >
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-gray-200 sm:h-12 sm:w-12">
+                <FaLinkedin className="text-lg text-gray-800 sm:text-xl" />
               </span>
-
-              <div className="min-w-0">
-                <p className="text-xs font-medium uppercase tracking-wide text-gray-500">
-                  Github
-                </p>
-
-                <a href="https://github.com/bhatinishant38" target="_blank" className="mt-1 bg-linear-to-r from-sky-300 via-blue-400 to-blue-500 bg-clip-text text-transparent truncate text-sm font-medium  sm:text-base">
-                  Click Me
-                </a>
-              </div>
-            </div>
-
+              <span className="min-w-0 flex-1">
+                <span className="block text-xs font-medium uppercase tracking-wide text-gray-500">
+                  LinkedIn
+                </span>
+                <span className="mt-1 block text-sm font-medium text-gray-900 sm:text-base">
+                  View my profile
+                </span>
+              </span>
+              <FaArrowRightLong
+                aria-hidden="true"
+                className="shrink-0 text-sm text-gray-600 transition-transform group-hover:translate-x-1"
+              />
+            </a>
           </div>
 
           {/* Button */}
