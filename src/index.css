@@ -47,3 +47,116 @@ html {
 .theme-light .project-image-overlay {
   background-color: transparent !important;
 }
+
+@keyframes contact-orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes contact-heading-enter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes contact-link-enter {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contact-orbit {
+  position: absolute;
+  z-index: 0;
+  border: 1px solid #000 !important;
+  border-radius: 9999px;
+  pointer-events: none;
+  opacity: 0.14;
+  animation: contact-orbit 24s linear infinite;
+}
+
+.contact-orbit--outer {
+  top: -4rem;
+  right: -4rem;
+  width: 18rem;
+  height: 18rem;
+}
+
+.contact-orbit--inner {
+  top: -1rem;
+  right: -1rem;
+  width: 12rem;
+  height: 12rem;
+  animation-direction: reverse;
+  animation-duration: 18s;
+}
+
+.contact-heading {
+  animation: contact-heading-enter 700ms both;
+}
+
+.contact-link {
+  animation: contact-link-enter 600ms both;
+}
+
+.contact-link:nth-child(1) {
+  animation-delay: 120ms;
+}
+
+.contact-link:nth-child(2) {
+  animation-delay: 240ms;
+}
+
+.contact-link:nth-child(3) {
+  animation-delay: 360ms;
+}
+
+.theme-light .contact-link:hover {
+  background-color: #f3f4f6 !important;
+  border-color: #6b7280 !important;
+}
+
+.theme-light .contact-link:hover .contact-link__icon {
+  background-color: #fff !important;
+}
+
+.theme-light .contact-cta {
+  background-color: #000 !important;
+  background-image: none !important;
+  border: 1px solid #000 !important;
+  color: #fff !important;
+}
+
+.theme-light .contact-cta .contact-cta__arrow {
+  color: #fff !important;
+}
+
+.theme-light .contact-cta:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.theme-light .contact-cta:hover .contact-cta__arrow {
+  color: #000 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contact-orbit,
+  .contact-heading,
+  .contact-link {
+    animation: none;
+  }
+}
