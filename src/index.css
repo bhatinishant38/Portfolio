@@ -138,6 +138,7 @@ html {
   background-image: none !important;
   border: 1px solid #000 !important;
   color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
 }
 
 .theme-light .contact-cta .contact-cta__arrow {
@@ -147,6 +148,7 @@ html {
 .theme-light .contact-cta:hover {
   background-color: #fff !important;
   color: #000 !important;
+  -webkit-text-fill-color: #000 !important;
 }
 
 .theme-light .contact-cta:hover .contact-cta__arrow {
